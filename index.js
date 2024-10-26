@@ -19,9 +19,9 @@ var secondDiceImage = 'images/dice' + secondRandomNum + '.png';
 document.querySelectorAll('img')[1].setAttribute('src', secondDiceImage);
 
 if (firstRandomNum > secondRandomNum) {
-    document.querySelector('h1').innerHTML = "Player One Wins!";
+    document.querySelector('h1').innerHTML = "🎉Player One Wins!";
 } else if (firstRandomNum < secondRandomNum) {
-    document.querySelector('h1').innerHTML = "Player Two Wins!";
+    document.querySelector('h1').innerHTML = "🎉Player Two Wins!";
 } else {
     document.querySelector('h1').innerHTML = "It's A Draw!";
 }
